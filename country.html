@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Country</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/psc.css" rel="stylesheet">
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="top"></div>
+<a href="#top" class="button-top"><i class="fa fa-angle-up"></i></a>
+<div class="container">
+  <div id="resp-menu" class="menu-trigger"> <a href="index.html" title="Home"></a> </div>
+  <!-- End of .header-strip --> 
+</div>
+<!-- End of .container -->
+<div class="container">
+  <div class="wrapper-container clearfix">
+    <div class="col-lg-12">
+      <h2 class="heading">country</h2>
+      <ul class="country">
+        <li><div>india</div>
+          <ul>
+            <li>new delhi</li>
+            <li>sansad</li>
+            <li>rupee</li>
+          </ul>
+        </li>
+        <li><div>pakistan</div>
+          <ul>
+            <li>islamabad</li>
+            <li>national assembly</li>
+            <li>rupee</li>
+          </ul>
+        </li>
+        <li><div>bangladesh</div>
+          <ul>
+            <li>dhaka</li>
+            <li>jatiya sansad</li>
+            <li>taka</li>
+          </ul>
+        </li>
+        <li><div>china</div>
+          <ul>
+            <li>beijing</li>
+            <li>national people congress</li>
+            <li>renminbi</li>
+          </ul>
+        </li>
+        <li><div>newzealand</div>
+          <ul>
+            <li>wellington</li>
+            <li>house of representatives</li>
+            <li>new zealand dollar</li>
+          </ul>
+        </li>
+        <li><div>zimbabwe</div>
+          <ul>
+            <li>Harare</li>
+            <li>house of assembly of zimbabwe</li>
+            <li>--</li>
+          </ul>
+        </li>
+        <li><div>nauru</div>
+          <ul>
+            <li>yaren district</li>
+            <li>--</li>
+            <li>australian dollar</li>
+          </ul>
+        </li>
+        <li><div>moldova</div>
+          <ul>
+            <li>chisinau</li>
+            <li>--</li>
+            <li>moldovan leu</li>
+          </ul>
+        </li>
+        <li><div>laos</div>
+          <ul>
+            <li>vientiane</li>
+            <li>safa hengsat</li>
+            <li>lao kip</li>
+          </ul>
+        </li>
+        <li><div>lebanon</div>
+          <ul>
+            <li>beirut</li>
+            <li>majlis-Al-Nawab</li>
+            <li>lebanese pound</li>
+          </ul>
+        </li>
+        <li><div>hungary</div>
+          <ul>
+            <li>budapest</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </li>
+        <li><div>kiribati</div>
+          <ul>
+            <li>south tarawa</li>
+            <li></li>
+            <li>australian / kiribati dollar</li>
+          </ul>
+        </li>
+        <li><div>nigeria</div>
+          <ul>
+            <li>abuja</li>
+            <li></li>
+            <li>Naira</li>
+          </ul>
+        </li>
+        <li><div>maldives</div>
+          <ul>
+            <li>male</li>
+            <li>people's majlis</li>
+            <li></li>
+          </ul>
+        </li>
+        <li><div>tanzania</div>
+          <ul>
+            <li>dodoma</li>
+            <li></li>
+            <li>shilling</li>
+          </ul>
+        </li>
+        <li><div>vietnam</div>
+          <ul>
+            <li>hanoi</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </li>
+        <li><div>haiti</div>
+          <ul>
+            <li>port-Au-Prince</li>
+            <li></li>
+            <li>gourde</li>
+          </ul>
+        </li>
+        <li><div>sweden</div>
+          <ul>
+            <li>stockholm</li>
+            <li></li>
+            <li>krona</li>
+          </ul>
+        </li>
+        <li><div>gambia</div>
+          <ul>
+            <li>banjul</li>
+            <li></li>
+            <li>dalasi</li>
+          </ul>
+        </li>
+        <li><div>mangolia</div>
+          <ul>
+            <li>Ulan Bator</li>
+            <li>Great Peoples</li>
+            <li></li>
+          </ul>
+        </li>
+        <li><div>vatican city</div>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="js/jquery-2.1.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script>
+$('ul.country li').addClass('list');
+$('ul.country li li').removeClass('list');
+$('ul.country li.list div').addClass('order');
+var $divs = $('ul.country .list');
+var alphabeticallyOrderedDivs = $divs.sort(function (a, b) {
+	return $(a).find('.order').text() > $(b).find('.order').text();
+});
+$('ul.country').html(alphabeticallyOrderedDivs);
+
+
+$(document).ready(function(){$('a[href^="#"]').on('click',function (e) {e.preventDefault();var target = this.hash;var $target = $(target);$('html, body').stop().animate({'scrollTop': $target.offset().top}, 900, 'swing', function () {window.location.hash = target;});});$(window).scroll(function(){if ($(this).scrollTop() > 50) {$('.button-top').fadeIn('slow');} else {$('.button-top').fadeOut('slow');}});});
+</script> 
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
